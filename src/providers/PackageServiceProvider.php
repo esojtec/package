@@ -7,6 +7,8 @@ use Illuminate\Support\ServiceProvider;
 class PackageServiceProvider extends ServiceProvider{
 
 	function boot(){
+
+		include __DIR__ . '\..\routes.php';
 		$this->loadViewsFrom(__DIR__ . '\..\views', 'package');
 	}
 
