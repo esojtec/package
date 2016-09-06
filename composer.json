@@ -1,0 +1,13 @@
+{
+    "name": "esojtec/package",
+    "description": "My First Laravel Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Manuel Chavez Rodriguez",
+            "email": "esojtec@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
