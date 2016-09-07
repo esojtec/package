@@ -4,9 +4,9 @@ namespace Esojtec\Package\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class Saludo extends Controller{
+class SaludoController extends Controller{
 
 	function index(){
-		\Package::getHolaMundo();
+		return \Package::getHolaMundo();
 	}
 }

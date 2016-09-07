@@ -1,3 +1,3 @@
 <?php 
 
-Route::get('package');
+Route::get('package','Esojtec\Package\Controllers\SaludoController@index');

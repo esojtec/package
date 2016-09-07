@@ -3,7 +3,7 @@
 namespace Esojtec\Package\Libraries;
 
 class Package {
-	funciton getHolaMundo(){
-		return 'Hola Mundo '. __NAMESPACE__ . ' ' . __CLASS__;
+	function getHolaMundo(){
+		return 'Hola Mundo ' . __CLASS__;
 	}
 }

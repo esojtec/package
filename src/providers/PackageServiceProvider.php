@@ -14,7 +14,7 @@ class PackageServiceProvider extends ServiceProvider{
 	}
 
 	function register(){
-		$this->app-singleton('package', function(){
+		$this->app->singleton('package', function(){
 			return $this->app->make('Esojtec\Package\Libraries\Package');
 		});
 	}
